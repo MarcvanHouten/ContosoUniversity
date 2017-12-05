@@ -25,4 +25,4 @@ COPY ${source:-obj/Docker/Publish} .
 ENTRYPOINT ["dotnet", "ContosoUniversity.dll"]
 
 #### run docker build command
-Docker build -t marcvanh/contosouniversity:latest --build-arg SOURCE="./bin/Release/netcoreapp2.0"
+Docker build -t marcvanh/contosouniversity:latest --build-arg source="./bin/Release/netcoreapp2.0/Publish" .
