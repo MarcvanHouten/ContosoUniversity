@@ -13,16 +13,19 @@ Download the [completed project](https://github.com/aspnet/Docs/tree/master/aspn
 
 ### Personal notes:
 Release the code
-
+```
 dotnet publish -c Release 
-
+```
 ### Dockerfile example
+```
 FROM microsoft/aspnetcore:latest
 ARG source
 EXPOSE 80
 WORKDIR /app
 COPY ${source:-obj/Docker/Publish} .
 ENTRYPOINT ["dotnet", "ContosoUniversity.dll"]
-
+```
 #### run docker build command
+```
 Docker build -t marcvanh/contosouniversity:latest --build-arg source="./bin/Release/netcoreapp2.0/Publish" .
+```
