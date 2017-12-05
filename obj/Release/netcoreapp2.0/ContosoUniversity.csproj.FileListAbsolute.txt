@@ -1,0 +1,10 @@
+C:\Projects\ContosoUniversity DotNetCore\bin\Release\netcoreapp2.0\ContosoUniversity.deps.json
+C:\Projects\ContosoUniversity DotNetCore\bin\Release\netcoreapp2.0\ContosoUniversity.runtimeconfig.json
+C:\Projects\ContosoUniversity DotNetCore\bin\Release\netcoreapp2.0\ContosoUniversity.runtimeconfig.dev.json
+C:\Projects\ContosoUniversity DotNetCore\bin\Release\netcoreapp2.0\ContosoUniversity.dll
+C:\Projects\ContosoUniversity DotNetCore\bin\Release\netcoreapp2.0\ContosoUniversity.pdb
+C:\Projects\ContosoUniversity DotNetCore\obj\Release\netcoreapp2.0\ContosoUniversity.csproj.CoreCompileInputs.cache
+C:\Projects\ContosoUniversity DotNetCore\obj\Release\netcoreapp2.0\ContosoUniversity.AssemblyInfoInputs.cache
+C:\Projects\ContosoUniversity DotNetCore\obj\Release\netcoreapp2.0\ContosoUniversity.AssemblyInfo.cs
+C:\Projects\ContosoUniversity DotNetCore\obj\Release\netcoreapp2.0\ContosoUniversity.dll
+C:\Projects\ContosoUniversity DotNetCore\obj\Release\netcoreapp2.0\ContosoUniversity.pdb
