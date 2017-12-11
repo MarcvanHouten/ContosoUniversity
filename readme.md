@@ -32,7 +32,12 @@ Docker build -t marcvanh/contosouniversity:latest --build-arg source="./bin/Rele
 
 ### Dockerfile Linux example
 ```
-
+FROM microsoft/aspnetcore:2.0.3:jessie
+ARG source
+EXPOSE 80
+WORKDIR /app
+COPY ${source:-obj/Docker/Publish} .
+ENTRYPOINT ["dotnet", "ContosoUniversity.dll"]
 ```
 ### run docker build on Linux command
 sudo docker build -t marcvanh/contosouniversitylinux:latest --build-arg source="./bin/Release/netcoreapp2.0/publish" -f DockerfileLinux .
