@@ -1,0 +1,11 @@
+FROM microsoft/aspnetcore:2.0.3-jessie
+
+ARG source
+
+EXPOSE 80
+
+WORKDIR /app
+
+COPY ${source:-obj/Docker/Publish} .
+
+ENTRYPOINT ["dotnet", "ContosoUniversity.dll"]

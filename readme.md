@@ -16,7 +16,7 @@ Release the code
 ```
 dotnet publish -c Release 
 ```
-### Dockerfile example
+### Dockerfile Windows example
 ```
 FROM microsoft/aspnetcore:latest
 ARG source
@@ -29,3 +29,12 @@ ENTRYPOINT ["dotnet", "ContosoUniversity.dll"]
 ```
 Docker build -t marcvanh/contosouniversity:latest --build-arg source="./bin/Release/netcoreapp2.0/Publish" .
 ```
+
+### Dockerfile Linux example
+```
+
+```
+### run docker build on Linux command
+sudo docker build -t marcvanh/contosouniversitylinux:latest --build-arg source="./bin/Release/netcoreapp2.0/publish" -f DockerfileLinux .
+
+
